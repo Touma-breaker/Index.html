@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toaru LN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1><a href="https://toarumajutsunoindex.fandom.com/wiki/Toaru_Majutsu_no_Index_Wiki" class="title">Toaru Novel</a></h1>
+  <p>I really love Toaru.</p>
+
+  <a href="https://drive.google.com/drive/folders/1VwyUuZ0OzaN3_K6Qi6shzD94tjwKx3kK" class="button-link">Toaru Eng</a><br>
+
+  <div class="images">
+    <img src="https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/f/f8/Kamijou_Touma_Manga_Index.png/revision/latest?cb=20200525093708" width="150" height="150" alt="Touma">
+    <img src="https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/4/41/Misaka_Idol.jpg/revision/latest?cb=20181119091839" width="150" height="150" alt="Misaka">
+  </div>
+
+  <h6>I also ship Touma and Misaka, they're cute ❤</h6>
+
+  <a href="https://drive.google.com/drive/mobile/folders/1-49eujtf2EhfnPm6jTP5VOdVuVE2e98u/1PCmd4Vs4mMYD0gnHIt6McsUWyULvAzG3/1-65jZcW2YGvK07RXeWDE_guO2CThFe_a?fbclid=IwY2xjawHsZCNleHRuA2FlbQIxMQABHSUlr8ISI1j5nWQYXgzSgtZz_udVN00ket1mwI1ndac7rYPzgRU_YeLsqw_aem__UqU7NcJN9fxtnYU8aIk9Q&sort=13&direction=a" class="button-link">Toaru ID</a><br>
+
+  <img src="https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/4/48/Kamijou_Idol.PNG/revision/latest?cb=20180529012649" width="150" alt="Kamijou Idol">
+
+  <h2>Evan</h2>
+  <h3>I love reading manga and novels. My fav is Toaru!</h3>
+  <p>Welcome to my uhhhhh, website? Maybe?</p>
+
+  <p><a href="https://www.instagram.com/kamijou.touma._?igsh=b25hcHpucjBpa2Vy" style="color: #4da6ff;">My IG</a></p>
+
+  <h3>Do you like Toaru?</h3>
+  <div class="button-group">
+    <button id="yes-button">Yes</button>
+    <button id="no-button">No</button>
+  </div>
+
+  <div id="result-message"></div>
+
+  <details>
+    <summary>My Fav Anime</summary>
+    <p>Toaru Index</p>
+    <p>Katekyo Hitman Reborn</p>
+  </details>
+
+  <!-- JavaScript -->
+  <script>
+    const yesButton = document.getElementById("yes-button");
+    const noButton = document.getElementById("no-button");
+    const result = document.getElementById("result-message");
+
+    yesButton.addEventListener("click", () => {
+      result.textContent = "⚡️ Welcome to the Toaru fandom! Misaka would be proud.";
+      result.classList.add("show");
+    });
+
+    noButton.addEventListener("click", () => {
+      result.textContent = "😢 No worries! Maybe Index will convince you someday.";
+      result.classList.add("show");
+    });
+  </script>
+
+</body>
+</html>
